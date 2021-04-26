@@ -231,7 +231,7 @@
                     <h2 class="center" data-aos="fade-up" data-aos-delay="200" data-aos-duration="2000">〜 Contact 〜</h2><br><br>
                 <form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/xyylzqpb" method="post">
                     <fieldset id="fs-frm-inputs">
-                      <label for="full-name">姓名</label>
+                      <label for="full-name">お名前</label>
                       <input type="text" name="name" id="full-name" placeholder="佐藤 花子" required="">
                       <br><br><label for="email-address">メールアドレス</label>
                       <input type="email" name="_replyto" id="email-address" placeholder="example@domain.com" required="">
@@ -246,9 +246,17 @@
                           <option value="9">その他</option>
                         </select>
                       </fieldset> -->
-                      <br><br><label for="message">気になる施術</label>
+                      <br><br><br>
+                      <label>施術について</label>
+                      <label><input type = "checkbox" name = "campaign_1">&nbsp;キャンペーン１に興味がある！</label>
+                      <label><input type = "checkbox" name = "campaign_2">&nbsp;キャンペーン２に興味がある！</label>
+                      <label><input type = "checkbox" name = "campaign_3">&nbsp;キャンペーン３に興味がある！</label>
+                      <label><input type = "checkbox" name = "campaign_4">&nbsp;キャンペーン４に興味がある！</label>
+                      <label><input type = "checkbox" name = "campaign_5">&nbsp;キャンペーン５に興味がある！</label>
+                      <br><br><label for="message">その他</label>
                       <textarea rows="3" name="message" id="message" placeholder="例）アートメイク、スキンケア、脱毛、若返り、ほくろ、クマ、たるみ、しわ、小顔、……" required=""></textarea>
                       <input type="hidden" name="_subject" id="email-subject" value="Survey Responses">
+                      <input type="hidden" name="form1">
                     </fieldset>
                     <br><br><br><input type="submit" value="送信" class="center shiny-btn4">
                   </form>
